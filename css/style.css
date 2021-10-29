@@ -1,0 +1,256 @@
+body {
+  background-color: #424242;
+}
+.homepage {
+  background-image: url("../img/homepage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 400px;
+  
+}
+
+/* nav */
+#littleM a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.list {
+  list-style: none;
+}
+
+a:link, a:visited {
+  color: #2F415E;
+  text-align: center;
+  text-decoration: none; 
+  float: right;
+
+}
+.navbar {
+  background-color: #2F415E;
+
+}
+
+/* a:hover, a:active {
+  background-color: #424242;
+} */
+
+/* End-Nav */
+
+/* homepage */
+.Mlogo {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  padding: 100px;
+}
+/* End-of-Homepage */
+
+/* Projects */
+
+#jumbotron1 {
+  background-image: url('/img/projects/IMG_4803-2.jpg');
+  background-position: center;
+  height: 75vh;
+  margin-top: 0%;
+
+}
+
+/* btn */
+.Photosbutton{
+  background-color: rgba(66, 66, 66, 0.5);
+  border-radius: 25px;
+  font-size: 75px;
+  border: none;
+  width: 370px;
+}
+
+.Photosbutton:hover{
+  background-color: #2F415E;
+    font-size: 80px;
+}
+
+.real{
+  background-color: rgba(66, 66, 66, 0.5);
+  border-radius: 25px;
+  font-size: 70px;
+  border: none;
+  width: 425px;
+  height: 125px;
+}
+
+.real:hover{
+  background-color: #2F415E;
+    font-size: 73px;
+}
+/* End btn */
+
+#jumbotron2 {
+  background-image: url('/img/projects/IMG_1023.jpg') ;
+
+  height: 75vh;
+  margin-top: 0%;
+
+}
+
+#jumbotron3 {
+  background-image: url('/img/projects/DSC09195.jpg') ;
+
+  height: 75vh;
+  margin-top: 0%;
+
+}
+
+.parallax {
+/* the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: open sans;
+}
+
+/* End-of-Projects */
+
+/* Photos */
+
+.call {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
+/* End-of-Photos */
+
+/* Price */
+.Pbody {
+  background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
+}
+
+.pricing-header {
+  margin-bottom: 25px;
+}
+
+
+.priceCard {
+margin-top: 5vh;
+padding: 10%;
+}
+
+/* End-of-Price */
+
+/* Real-Estate */
+/* End-of-Real-Estate */
+
+/* Videos */
+/* End-of-Videos */
+
+/* About */
+
+
+.aboutpage {
+  background-image: url('/img/About/about.png');
+  margin-bottom: 310px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  border: none;
+}
+
+.BigCard {
+  height: 700px;
+  border-radius: 25px;
+  margin-top: 25vh;
+}
+
+.textcolor {
+  color: #424242;
+}
+  
+ .words {
+  width: 50%;
+  margin-top: 40px;
+}
+
+.biophoto {
+  height: 20px;
+  width: 20px;
+}
+
+.button {
+    margin-left: 700px;
+    margin-right: 20px;
+    width: 100px;
+}
+ 
+
+  @media (max-width: 1000.98px) { 
+
+.BigCard {
+  height: 1000px;
+  border-radius: 25px;
+}
+      
+.words {
+  width: 100%;
+  margin-top: 400px;
+}
+
+.biophoto {
+  display: flex;
+  padding-left: 10%;
+  align-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+}
+
+  }
+
+/* End-of-About */
+
+/* Contact */
+
+.contactpage {
+  background-image: url(/img/Contact/lgcontact.png);
+  margin-bottom: 190px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.infobox {
+  width: 800px;
+  padding-right: 25px;
+}
+
+.envelope {
+  color: #2F415E;
+}
+
+@media (max-width: 700.98px) {
+  .infobox {
+    width: 500px;
+  }
+}
+
+/* End-of-contats */
+
+/* footer */
+.foot {
+  color: aliceblue;
+  font-weight: 700;
+  background-color: #2F415E;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 120px;          
+}
+
+#instagramLogo {
+  background: rgba(0, 0, 0, 0);
+
+}
+/* End-of-Footer */
